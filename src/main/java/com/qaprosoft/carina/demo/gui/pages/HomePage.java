@@ -42,7 +42,7 @@ public class HomePage extends AbstractPage {
     @FindBys({ @FindBy(xpath = "//p[contains(@class, 'pad')]"), @FindBy(xpath = ".//*[contains(@class, 'pad-single')]") })
     private ExtendedWebElement phoneFinderButton;
 
-    @FindBy(className = "news-column-index")
+    @FindBy(className = "news-column-index")      
     private ExtendedWebElement newsColumn;
 
     public HomePage(WebDriver driver) {
