@@ -1,4 +1,4 @@
-package com.qaprosoft.carina.demo;
+package com.qaprosoft.carina.demo.exercise;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;

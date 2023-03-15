@@ -1,0 +1,4 @@
+{
+    <#if name??>"name": "${name}",</#if>
+    <#if job??>"job": "${job}"</#if>
+}

@@ -29,6 +29,6 @@ import com.zebrunner.carina.utils.Configuration;
 public class GetUserMethods extends AbstractApiMethodV2 {
 
     public GetUserMethods() {
-        replaceUrlPlaceholder("base_url", Configuration.getEnvArg("api_url"));
+    	 replaceUrlPlaceholder("base_url", Configuration.getEnvArg("api_url"));
     }
 }
