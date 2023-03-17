@@ -1,4 +1,4 @@
-package com.qaprosoft.carina.demo.test.model;
+package com.qaprosoft.carina.demo.test.facebook.model;
 
 public class User {
 	private String username;

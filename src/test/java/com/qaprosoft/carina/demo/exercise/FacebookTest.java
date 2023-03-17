@@ -5,8 +5,8 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.qaprosoft.carina.core.foundation.IAbstractTest;
-import com.qaprosoft.carina.demo.test.FacebookHomePage;
-import com.qaprosoft.carina.demo.test.model.User;
+import com.qaprosoft.carina.demo.test.facebook.FacebookHomePage;
+import com.qaprosoft.carina.demo.test.facebook.model.User;
 import com.zebrunner.agent.core.annotation.Priority;
 import com.zebrunner.carina.core.registrar.ownership.MethodOwner;
 

@@ -1,4 +1,4 @@
-package com.qaprosoft.carina.demo.test;
+package com.qaprosoft.carina.demo.test.facebook;
 
 import java.lang.invoke.MethodHandles;
 
