@@ -15,20 +15,21 @@
  */
 package com.qaprosoft.carina.demo.gui.pages;
 
-import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;
-import com.qaprosoft.carina.core.gui.AbstractPage;
-import com.qaprosoft.carina.demo.gui.components.FooterMenu;
-import com.qaprosoft.carina.demo.gui.components.WeValuePrivacyAd;
-import com.zebrunner.carina.utils.Configuration;
-import com.zebrunner.carina.utils.R;
+import java.lang.invoke.MethodHandles;
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.lang.invoke.MethodHandles;
-import java.util.List;
+import com.qaprosoft.carina.demo.gui.components.FooterMenu;
+import com.qaprosoft.carina.demo.gui.components.WeValuePrivacyAd;
+import com.zebrunner.carina.utils.Configuration;
+import com.zebrunner.carina.utils.R;
+import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
+import com.zebrunner.carina.webdriver.gui.AbstractPage;
 
 public class HomePage extends AbstractPage {
     private static final Logger LOGGER = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());

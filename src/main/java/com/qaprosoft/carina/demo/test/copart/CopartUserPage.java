@@ -2,7 +2,7 @@ package com.qaprosoft.carina.demo.test.copart;
 
 import org.openqa.selenium.WebDriver;
 
-import com.qaprosoft.carina.core.gui.AbstractPage;
+import com.zebrunner.carina.webdriver.gui.AbstractPage;
 
 public class CopartUserPage extends AbstractPage{
 

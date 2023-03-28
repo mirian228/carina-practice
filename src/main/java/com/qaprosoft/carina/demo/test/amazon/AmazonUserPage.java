@@ -2,7 +2,7 @@ package com.qaprosoft.carina.demo.test.amazon;
 
 import org.openqa.selenium.WebDriver;
 
-import com.qaprosoft.carina.core.gui.AbstractPage;
+import com.zebrunner.carina.webdriver.gui.AbstractPage;
 
 public class AmazonUserPage extends AbstractPage {
 

@@ -20,8 +20,8 @@ import java.util.List;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 
-import com.qaprosoft.carina.core.gui.AbstractPage;
 import com.qaprosoft.carina.demo.gui.components.ModelItem;
+import com.zebrunner.carina.webdriver.gui.AbstractPage;
 
 public class BrandModelsPage extends AbstractPage {
     @FindBy(xpath = "//div[@id='review-body']//li")
